@@ -23,5 +23,6 @@ jobs:
 
       - name: "Upload artifact"
         if: ${{ inputs.upload == true }}
-        uses: actions/upload-pages-artifact
-        path: ./dist/apps/blow-it
+        uses: actions/upload-pages-artifact@v1.0.8
+        with:
+          path: ./dist/apps/blow-it
