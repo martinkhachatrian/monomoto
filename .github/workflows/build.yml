@@ -15,8 +15,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: "Build"
-        uses: nrwl/nx-set-shas@v3
+      - uses: nrwl/nx-set-shas@v3
 
       - run: npm ci
       - run: npx nx affected -t lint --parallel=3
