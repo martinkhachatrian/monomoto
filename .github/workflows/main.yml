@@ -1,0 +1,14 @@
+name: Check PR
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: "Check pull request"
+        run: echo "Anasun"
+    
