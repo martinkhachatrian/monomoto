@@ -6,9 +6,6 @@ on:
 
 jobs:
   check:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: "Check pull request"
-        run: echo "Anasun"
+     name: "Check"
+     uses: ./.github/workflows/build.yml
     
