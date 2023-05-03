@@ -1,11 +1,10 @@
-name: Check PR
+name: Pull request
 
 on:
   pull_request:
-    types: [opened, reopened, synchronize]
+    types: [ opened, reopened, synchronize ]
 
 jobs:
   check:
-     name: "Check"
-     uses: ./.github/workflows/build.yml
-    
+    name: "Check"
+    uses: ./.github/workflows/build.yml
