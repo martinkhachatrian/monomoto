@@ -1,0 +1,10 @@
+name: "Deploy to Github pages"
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    uses: ./.github/workflows/deployment.yml
