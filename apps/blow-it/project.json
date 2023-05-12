@@ -10,7 +10,7 @@
       "defaultConfiguration": "production",
       "options": {
         "outputPath": "dist/apps/blow-it",
-        "base": ""
+        "base": "/monomoto"
       },
       "configurations": {
         "development": {
